@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 # 1. KHỞI TẠO THÔNG SỐ (Mục 1 & 4)
 # ==========================================
 n = 100            # Số lượng trang web (tối thiểu 100 theo đề bài)
-alpha = 0.5       # Hệ số cản (damping factor)
+alpha = 0.85       # Hệ số cản (damping factor)
 epsilon = 1e-8     # Sai số cho phép để dừng vòng lặp
 
 # Tạo ma trận kề A ngẫu nhiên (Mô hình hóa hệ thống web dưới dạng đồ thị có hướng)
