@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # ==========================================
 # 1. KHỞI TẠO THÔNG SỐ (Mục 1 & 4)
 # ==========================================
-n = 20            # Số lượng trang web (tối thiểu 100 theo đề bài)
+n = 100            # Số lượng trang web (tối thiểu 100 theo đề bài)
 alpha = 0.5       # Hệ số cản (damping factor)
 epsilon = 1e-8     # Sai số cho phép để dừng vòng lặp
 
